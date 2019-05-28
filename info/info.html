@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Q4 Agenda</title>
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="topnav">
+		<a style="float:left" href="../index.html">Home</a>
+		<a style="float:left" href="../rubric/rubric.html">Rubric</a>
+		<a style="float:left" href="../review/review.html">Review</a>
+		<a style="float:left" href="info.html" class="active">Learning</a>
+		<a style="float:left" href="../projects/projects.html">Projects</a>
+		<a style="float:right" href="../contact/contact.html">Contact</a>
+		<a style="float:right" href="../git/git.html">Git</a>
+	</div>
+	<br/>
+	<br/>
+
+	<h1 class="center">Post Mortems</h1>
+	<p class="justify">
+		A Post Mortem is an excersise where a team comes together to evaluate how a project, release, or feature went for purposes of improvement.  A 
+		Post Mortem is a blameless excersise and focuses on a few main points:
+	</p>
+	<br/>
+	<ul>
+		<li>What went right?</li>
+		<li>What went wrong?</li>
+		<li>How can we improve for next time?</li>
+	</ul>
+	<br/>
+	<p class="justify">
+		By the end you should have a google doc that addresses each of these points with at least one entry in each category with any feedback the team 
+		would like to contribute. 
+	</p>
+
+	<hr/>
+
+	<h1 class="center">JavaScript Examples</h1>
+	<!-- Here is where we import our JS File for use in the next section. -->
+	<script src="scripts/examples.js"></script>
+	<!-- 
+		A button uses onclick as a handler you can define logic for.  What is written inside is Javascript code.
+		document -> The current HTML Document.
+		getElementById -> A method, or function, that an HTML document has. It allows us to get an HTML tag we defined to perform logic upon.
+			(https://www.w3schools.com/jsref/met_document_getelementbyid.asp)
+		innerHTML -> What value is contained inside the HTML tags.  In this case it begins with the value "Uninitialized".
+		randomOutput -> This is the method, or function, that is defined in the scripts/examples.js file.
+	-->
+	<button type="button" 
+		onclick="document.getElementById('demo').innerHTML = randomOutput()">
+		Click to run JS Code.</button>
+	<p id="demo">Uninitialized</p>
+	<br/>
+
+	<button type="button" 
+		onclick="adjustHealth(1)">
+		Add Health.</button>
+	<button type="button" 
+		onclick="adjustHealth(-1)">
+		Remove Health.</button>
+	<p id="health">Health: 10</p>
+	
+</body>

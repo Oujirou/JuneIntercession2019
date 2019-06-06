@@ -10,7 +10,7 @@
 		<a style="float:left" href="../index.html">Home</a>
 		<a style="float:left" href="../rubric/rubric.html">Rubric</a>
 		<a style="float:left" href="../review/review.html">Review</a>
-		<a style="float:left" href="info.html" class="active">Learning</a>
+		<a style="float:left" href="info.html" class="active">Colleges</a>
 		<a style="float:left" href="../projects/projects.html">Projects</a>
 		<a style="float:right" href="../contact/contact.html">Contact</a>
 		<a style="float:right" href="../git/git.html">Git</a>
@@ -18,48 +18,231 @@
 	<br/>
 	<br/>
 
-	<h1 class="center">Post Mortems</h1>
-	<p class="justify">
-		A Post Mortem is an excersise where a team comes together to evaluate how a project, release, or feature went for purposes of improvement.  A 
-		Post Mortem is a blameless excersise and focuses on a few main points:
-	</p>
-	<br/>
-	<ul>
-		<li>What went right?</li>
-		<li>What went wrong?</li>
-		<li>How can we improve for next time?</li>
-	</ul>
-	<br/>
-	<p class="justify">
-		By the end you should have a google doc that addresses each of these points with at least one entry in each category with any feedback the team 
-		would like to contribute. 
-	</p>
+	<h1>Helpful College Links</h1>
 
-	<hr/>
-
-	<h1 class="center">JavaScript Examples</h1>
-	<!-- Here is where we import our JS File for use in the next section. -->
-	<script src="scripts/examples.js"></script>
 	<!-- 
-		A button uses onclick as a handler you can define logic for.  What is written inside is Javascript code.
-		document -> The current HTML Document.
-		getElementById -> A method, or function, that an HTML document has. It allows us to get an HTML tag we defined to perform logic upon.
-			(https://www.w3schools.com/jsref/met_document_getelementbyid.asp)
-		innerHTML -> What value is contained inside the HTML tags.  In this case it begins with the value "Uninitialized".
-		randomOutput -> This is the method, or function, that is defined in the scripts/examples.js file.
+		Where you look up all the course lists by school. It is both your High School as well as Community Colleges. 
 	-->
-	<button type="button" 
-		onclick="document.getElementById('demo').innerHTML = randomOutput()">
-		Click to run JS Code.</button>
-	<p id="demo">Uninitialized</p>
+	<!-- https://hs-articulation.ucop.edu/agcourselist -->
+	<!-- 
+		DTech: https://hs-articulation.ucop.edu/agcourselist/institution/4736 
+		CSM: https://hs-articulation.ucop.edu/agcourselist/institution/4308;academicYearId=17
+		Canada: https://hs-articulation.ucop.edu/agcourselist/institution/4300;academicYearId=17
+		Skyline: https://hs-articulation.ucop.edu/agcourselist/institution/4378;academicYearId=17
+	-->
+	<h2>A-G Course Lists</h2>
+	<p>
+		This will tell you what classes a school offers to meet your A-G requirememnts for graduating High School. 
+		These credits make up your GPA, some Arts credits also give a VAPA credit.
+	</p> 
+	<ul>
+		<li><a href="https://hs-articulation.ucop.edu/agcourselist">Search Engine</a></li>
+		<li><a href="https://hs-articulation.ucop.edu/agcourselist/institution/4736 ">Design Tech High School</a></li>
+		<li><a href="https://hs-articulation.ucop.edu/agcourselist/institution/4308;academicYearId=17">College of San Mateo</a></li>
+		<li><a href="https://hs-articulation.ucop.edu/agcourselist/institution/4300;academicYearId=17">Canada College</a></li>
+		<li><a href="https://hs-articulation.ucop.edu/agcourselist/institution/4378;academicYearId=17">Skyline College</a></li>
+	</ul>
+
+	<br/>
+	<hr/>
 	<br/>
 
-	<button type="button" 
-		onclick="adjustHealth(1)">
-		Add Health.</button>
-	<button type="button" 
-		onclick="adjustHealth(-1)">
-		Remove Health.</button>
-	<p id="health">Health: 10</p>
+	<!-- 
+		California State University Eligibility Indexes for Non-Impacted Majors.
+		- https://www2.calstate.edu/apply/eligibility-index
+		- Use for CSU GPA calculator, Community College counts as Honors.
+	-->
+	<h2>CSU GPA Calculator</h2>
+	<p>
+		Use the GPA calculator to see what your calculated GPA and check against the Eligibility Index Table. A GPA of over
+		3.60 means that any SAT score is acceptable.  NON IMPACTED MAJORS ONLY.
+	</p>
+	<ul>
+		<li><a href="https://www2.calstate.edu/apply/eligibility-index">CSU GPA Calculator</a></li>
+	</ul>
+
+	<!--
+		University of California GPA calculators, pay attention to #2 in particular.
+		- http://admission.universityofcalifornia.edu/freshman/requirements/gpa-requirement/index.html
+	-->
+	<h2>UC GPA Formulas</h2>
+	<p>Pay attention to point #2 since it matters what year you take those courses in.</p>
+	<ul>
+		<li><a href="http://admission.universityofcalifornia.edu/freshman/requirements/gpa-requirement/index.html">UC GPA Formula</a></li>
+	</ul>
+
+	<!--
+		Unofficial CalPoly Multi Criteria Admissions (MCA) calculator
+		- https://mca.netlify.com/
+	-->
+	<h2>Unofficial CalPoly MCA Calculator</h2>
+	<p>Multi Criteria Admissions calculator specific to CalPoly.</p>
+	<ul>
+		<li><a href="https://mca.netlify.com/">CalPoly MCA Calculator</a></li>
+	</ul>
+
+	<!--
+		California State University Eligibility Index Formulas.
+		- http://ychs.ycusd.org/documents/Departments/Counseling/CSU%20Resources/csu%20chart.pdf
+	-->
+	<h2>California State University Eligibility Index Formulas</h2>
+	<p>Pay attention to the forumlas on the bottom half, this will help you calculate your scores.</p>
+	<ul>
+		<li><a href="http://ychs.ycusd.org/documents/Departments/Counseling/CSU%20Resources/csu%20chart.pdf">CSU Eligibility Index Formulas</a></li>
+	</ul>
+
+	<br/>
+	<hr/>
+	<br/>
+
+	<!--
+		San Jose State University Impaction Scores
+		- http://www.sjsu.edu/admissions/impaction/impactionresultsfreshmen/index.html
+		- Not all schools provide the minumums by numbers.
+		- Different Eligibility Index Formula for their College of Engineering (COE).
+	-->
+	<h2>San Jose State University Impaction Scores</h2>
+	<p>
+		Not all schools provide the minumums on a per major basis, including undeclared. There is a different Eligibility Index
+		Forumla for their College of Engineering (COE).
+	</p>
+	<ul>
+		<li><a href="http://ychs.ycusd.org/documents/Departments/Counseling/CSU%20Resources/csu%20chart.pdf">CSU Eligibility Index Formulas</a></li>
+	</ul>
 	
+	<!--
+		California State University majors requiring higher admission standards.
+		- https://www.calstate.edu/sas/documents/ImpactedProgramsMatrix.pdf
+	-->
+	<h2>California State University Majors Inpaction Matrix</h2>
+	<p>
+		Matrix showing what majors are impacted on a per college basis.
+	</p>
+	<ul>
+		<li><a href="https://www.calstate.edu/sas/documents/ImpactedProgramsMatrix.pdf">Impaction Matrix</a></li>
+	</ul>
+
+	<br/>
+	<hr/>
+	<br/>
+
+	<!--
+		Search Engine for finding how to get CSU compatible credits.
+		- https://calstateonline.quottly.com/
+	-->
+	<h2>Search Engine for Finding how to get CSU Compatible Credits</h2>
+	<p>
+		Will help find CSU credits that you can take in person or online.
+	</p>
+	<ul>
+		<li><a href="https://calstateonline.quottly.com/">CSU Compatable Credit Search Engine</a></li>
+	</ul>
+
+	<!--
+		Search Engine for finding how to get UC/CSU/CC compatible credits.  Online Classes Only!
+		- https://cvc.edu/
+	-->
+	<h2>Search Engine for Finding how to get UC/CSU/CC Compatible Credits - ONLINE ONLY</h2>
+	<p>
+		Will help find UC/CSU/CC credits that you can take in online.
+	</p>
+	<ul>
+		<li><a href="https://cvc.edu/">UC/CSU/CC Compatable Credit Search Engine</a></li>
+	</ul>
+
+	<br/>
+	<hr/>
+	<br/>
+
+	<h1>Transfers to CSU/UC</h1>
+
+	<!--
+		CSU General Education Worksheets
+	-->
+	<h2>Calfornia State Univerisity General Education Worksheets - Only works for CSU Schools</h2>
+	<p>
+		Having the requirements filled out on these worksheets will allow you to skip your General Education courses you would be
+		taking at any Calfornia State Univerisity location.  Requires 39-40 credit hours of classes you could take at Community College. Most
+		colleges do not allow more than 60 credit hours to transfer to a 4 year college.  A little less work than the IGETC and no 
+		foreign language requirements.
+	</p>
+	<ul>
+		<li><a href="https://collegeofsanmateo.edu/forms/docs/counseling/CSUGE_Worksheet_18-19.pdf">College of San Mateo</a></li>
+		<li><a href="https://catalog.canadacollege.edu/current/ge-worksheets/_docs/Catalog1819_CSU-GE-Req.pdf">Canada College</a></li>
+		<li><a href="http://catalog.skylinecollege.edu/current/csu-ge-igetc/index.php">Skyline College</a></li>
+	</ul>
+
+	<!--
+		UC IGETC Worksheet
+	-->
+	<h2>Intersegmental General Education Transfer Curriculum (IGETC) Worksheet</h2>
+	<p>
+		Having the requirements filled out on these worksheets will allow you to skip your General Education courses you would be
+		taking at a Calfornia State Univerisity or Univerisity of California location.  Requires 34-37 (39-42 for UC) credit hours 
+		of classes you could take at Community College. Most colleges do not allow more than 60 credit hours to transfer to a 4 year college. 
+		You automatically qualify for Arizona State University if you complete your IGETC, which is all online and provides Bachelors Degrees.
+	</p>
+	<ul>
+		<li><a href="https://collegeofsanmateo.edu/forms/docs/counseling/IGETC_Worksheet_18-19.pdf">College of San Mateo</a></li>
+		<li><a href="https://catalog.canadacollege.edu/current/ge-worksheets/_docs/Catalog1819_IGETC.pdf">Canada College</a></li>
+		<li><a href="http://catalog.skylinecollege.edu/current/csu-ge-igetc/igetc.php">Skyline College</a></li>
+	</ul>
+
+	<!--
+		UCLA Transfer Rates
+		- http://www.admission.ucla.edu/prospect/Adm_tr/Tr_Prof18_mjr.htm
+	-->
+	<h2>University of California Los Angeles Transfer Acceptance Rates</h2>
+	<p>
+		UCLA is unique that it publishes the number of students that apply by degree, and the rates in which they are accepted along with 
+		the average GPA of students accepted.
+	</p>
+	<ul>
+		<li><a href="http://www.admission.ucla.edu/prospect/Adm_tr/Tr_Prof18_mjr.htm">Transfer Acceptance Rates</a></li>
+		
+	</ul>
+
+	<br/>
+	<hr/>
+	<br/>
+
+	<h1>Other</h1>
+	<!--
+		Promise Scholarships
+	-->
+	<h2>Promise Scholarships</h2>
+	<p>
+		A scholarships provided by Community Colleges to assist in getting an Associates Degress or Certificate over two years.
+	</p>
+	<ul>
+		<li><a href="https://collegeofsanmateo.edu/promise/">College of San Mateo</a></li>
+		<li><a href="https://www.canadacollege.edu/promise/">Canada College</a></li>
+		<li><a href="https://skylinecollege.edu/promise/">Skyline College</a></li>
+	</ul>
+
+	<!--
+		Western Undergraduate Exchange Search Engine
+		- https://wuesavingsfinder.wiche.edu/search-results.php
+	-->
+	<h2>Western Undergraduate Exchange Search Engine</h2>
+	<p>
+		A search engine to find schools out of state where you don't have to pay the out of state tuition rate.
+	</p>
+	<ul>
+		<li><a href="https://wuesavingsfinder.wiche.edu/search-results.php">Search Engine</a></li>
+	</ul>
+
+	<!--
+		Starbucks College Achievement Plan
+		- https://edplus.asu.edu/what-we-do/starbucks-college-achievement-plan
+		- Arizona State University tuition is free if you work 20 hours a week at Starbucks.
+	-->
+	<h2>Starbucks College Achievement Plan</h2>
+	<p>
+		Program offered through Starbucks where you can get free tuition if you work 20 hours a week.
+	</p>
+	<ul>
+		<li><a href="https://edplus.asu.edu/what-we-do/starbucks-college-achievement-plan">Details</a></li>
+	</ul>
+
 </body>

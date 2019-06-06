@@ -10,11 +10,6 @@ iframe {
 	display: block;
 }
 
-li {
-	padding-left: 10%;
-	list-style-position: inside;
-}
-
 hr {
     display: block;
     height: 1px;
